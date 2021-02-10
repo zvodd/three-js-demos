@@ -1,0 +1,20 @@
+{
+  "version": 2,
+  "scope": "brn",
+  "alias": ["simple-nextjs-boilerplate.onbrn.com"],
+  "github": {
+    "enabled": false
+  },
+  "env": {
+    "NODE_ENV": "production",
+    "NODE_PATH": "/",
+    "API_URL": "https://simple-nextjs-boilerplate.onbrn.com"
+  },
+  "build": {
+    "env": {
+      "NODE_ENV": "production",
+      "NODE_PATH": "/",
+      "API_URL": "https://simple-nextjs-boilerplate.onbrn.com"
+    }
+  }
+}
